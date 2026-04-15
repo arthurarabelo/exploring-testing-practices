@@ -40,3 +40,6 @@ Com base nos dados obtidos, selecione uma prática ou dado de teste relevante e 
 **1. Repositório selecionado:** https://github.com/soxoj/maigret 
 
 **2. Explicação:** O Maigret é uma ferramenta que lida com muitas requisições de rede em vários websites. Como ele faz milhares de requisições externas, rodar testes reais em todos os sites seria lento e  instável. A presença de pytest-httpserver e mock indica que o repositório usa Test Doubles. Os testes, portanto, simulam as respostas dos sites para testar se a aplicação consegue interpretá-las corretamente sem precisar acessar a internet de verdade. Esta é uma prática que faz muito sentido no contexto deste projeto e que é muito importante para isolar bem os testes unitários.
+
+<img width="726" height="155" alt="image" src="https://github.com/user-attachments/assets/9f7eb645-6417-4481-b242-e8da89b650f6" />
+
